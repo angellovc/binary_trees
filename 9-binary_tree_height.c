@@ -2,7 +2,6 @@
 /**
  * find_height_binary - that measures the height of a binary tree
  * @tree: binary tree
- * @direction: is used to specify the node child 1 in
  * right child and 0 in left child
  * Return: height of the binary tree
  */
@@ -12,10 +11,8 @@ size_t find_height_binary(const binary_tree_t *tree)
 
 	if (tree == NULL)
 		return (-1);
-	h_left = find_height_binary(tree->left);
-	h_right = find_height_binary(tree->right);
-	h_left += 1;
-	h_right += 1;
+	h_left = 1 + find_height_binary(tree->left);
+	h_right = 1 + find_height_binary(tree->right);
 	if (h_left > h_right)
 		return (h_left);
 	return (h_right);
