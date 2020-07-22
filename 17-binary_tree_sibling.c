@@ -9,7 +9,7 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 	binary_tree_t *parent_node;
 
 	if (!node)
-		return(NULL);
+		return (NULL);
 	parent_node = node->parent;
 	if (!parent_node)
 		return (NULL);
