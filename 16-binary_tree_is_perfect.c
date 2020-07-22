@@ -36,9 +36,7 @@ int check_levels(const binary_tree_t *tree)
 	if (tree->right)
 		r = 1 +  check_levels(tree->right);
 	if (l != r)
-		l = 0;
-	if (l == 0)
-		return (l);
+		return (0);
 	if (l > r)
 		return (l);
 	return (r);
