@@ -89,11 +89,6 @@ What you should learn from this project:
 ---
 
 ## Author
-* **Juan Pablo Yepes Tamayo**
- - [GitHub](https://github.com/PabloYepes27)
- - [Linkedin](https://www.linkedin.com/in/pablo-yepes-120495)
- - [Twitter](https://twitter.com/pabloyepes27)
-
  * **Angello Villegas**
  - [GitHub](https://github.com/)
  - [Linkedin](https://www.linkedin.com/)
